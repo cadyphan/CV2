@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-color: #90A959;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #50622a;
+    z-index: 1;
+    font-family: "cabin", "sans-serif";
+}
+.splash {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+img {  
+    border-radius: 50%;
+    z-index: 0;
+}
+#address {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "cabin", "sans-serif";
+}
+#tagline {
+    margin-top: 0;
+    font-family: "cabin", "sans-serif";
+}
+hr {
+    border: 2px solid #50622a;
+    border-radius: 5px;
+}
+a:link {
+    color: #FF9F1C;
+    text-decoration: none;
+}
+a:hover {
+    font-size: large;
+}
+a:visited {
+    color: bisque;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #3f4531d7;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 75px;
+}
+.info {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    font-family: "cabin", "sans-serif";
+    list-style-type: circle;
+}
+.card {
+    display: flex;
+    font-family: "cabin", "sans-serif";
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+.cabin-regular> {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+h3.card {
+    display: flex;
+    justify-content: center;
+    font-family: 'Titan-One', sans-serif;
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Titan-One', sans-serif;
+    font-size: 40px;
+}
+.titan-one-regular {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+dl {
+    font-family: "cabin", "sans-serif";
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr ;
+    grid-column-end: span 2;
+}
+dl dd {
+    margin-bottom: 5px;
+}
+h2 {
+    font-family: 'Titan-One', sans-serif;
+    font-size: 20px;
+}
+#education {
+    font-family: "cabin", "sans-serif";
+}
+ul li {
+    margin-bottom: 5px;
+}
+.one-col {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr / 1fr 1fr;
+}
+p.one-col {
+    margin: auto;
+    font-family: "cabin", "sans-serif";
+    font-size: 20px;
+}
+h1.one-col {
+    margin: auto;
+    margin-top: 100px;
+}
+input {
+    width: 250px;
+}
+
+
